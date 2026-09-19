@@ -17,7 +17,7 @@ export const ExperienceStory: React.FC = () => {
       tag: 'Storytelling',
       headline: 'Narrate how your paths crossed',
       description: 'Document your first meeting, engagement day, and journey towards the aisle with dedicated editorial milestones and photo memories.',
-      image: 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1200&q=80',
+      image: '/images/moments/anniversary-moment.jpg',
     },
     {
       id: 'photos',
@@ -26,7 +26,7 @@ export const ExperienceStory: React.FC = () => {
       tag: 'Visual Gallery',
       headline: 'Full-resolution image showcase',
       description: 'Display your engagement photoshoot in Japanese garden or European architectures with zero quality loss and instant lightbox zoom.',
-      image: 'https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=1200&q=80',
+      image: '/images/templates/template-editorial.jpg',
     },
     {
       id: 'event',
@@ -35,7 +35,7 @@ export const ExperienceStory: React.FC = () => {
       tag: 'Event Coordination',
       headline: 'Seamless directions for your guests',
       description: 'Avoid lost guests with instant Google Maps venue triggers, dress code guidelines, and automated calendar reminders.',
-      image: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1200&q=80',
+      image: '/images/templates/template-romantic.jpg',
     },
     {
       id: 'rsvp',
@@ -44,7 +44,7 @@ export const ExperienceStory: React.FC = () => {
       tag: 'Guest Management',
       headline: 'Real-time attendance confirmation',
       description: 'Guests can confirm attendance, specify dietary choices, and leave warm blessing wishes directly from their smartphone screen.',
-      image: 'https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=1200&q=80',
+      image: '/images/templates/template-minimal.jpg',
     },
     {
       id: 'gift',
@@ -53,7 +53,7 @@ export const ExperienceStory: React.FC = () => {
       tag: 'Digital Well-Wishes',
       headline: 'Seamless cash gifts & QRIS',
       description: 'Allow loved ones who cannot attend in person to send digital monetary blessings securely via bank transfer and QRIS protocol.',
-      image: 'https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=1200&q=80',
+      image: '/images/templates/template-modern.jpg',
     },
   ];
 

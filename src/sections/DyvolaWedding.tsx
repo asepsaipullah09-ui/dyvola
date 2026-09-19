@@ -113,7 +113,7 @@ export const DyvolaWedding: React.FC = () => {
             className="lg:col-span-4 relative h-[480px] sm:h-[540px] rounded-[24px] overflow-hidden border border-[#D8D0C5] shadow-xl group"
           >
             <Image
-              src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1000&q=80"
+              src="/images/hero/wedding-hero.jpg"
               alt="DYVOLA Wedding Experience"
               fill
               className="object-cover transition-transform duration-700 group-hover:scale-105"

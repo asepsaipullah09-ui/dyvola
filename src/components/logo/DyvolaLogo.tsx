@@ -18,36 +18,35 @@ export const DyvolaLogo: React.FC<DyvolaLogoProps> = ({
   height,
   priority = false,
 }) => {
-  // Map variant to file path
   let src = '/images/logo/dyvola-horizontal.png';
-  let defaultWidth = 160;
-  let defaultHeight = 40;
+  let defaultWidth = 140;
+  let defaultHeight = 36;
   let alt = 'DYVOLA Logo';
 
   switch (variant) {
     case 'symbol':
       src = '/images/logo/dyvola-symbol.png';
-      defaultWidth = 44;
-      defaultHeight = 44;
+      defaultWidth = 40;
+      defaultHeight = 40;
       alt = 'DYVOLA Monogram Symbol';
       break;
     case 'wordmark':
       src = '/images/logo/dyvola-wordmark.png';
-      defaultWidth = 140;
-      defaultHeight = 36;
+      defaultWidth = 130;
+      defaultHeight = 32;
       alt = 'DYVOLA Wordmark';
       break;
     case 'primary-stacked':
       src = '/images/logo/dyvola-primary-stacked.png';
-      defaultWidth = 180;
-      defaultHeight = 110;
+      defaultWidth = 170;
+      defaultHeight = 95;
       alt = 'DYVOLA — Your Moments, Made Lasting';
       break;
     case 'horizontal':
     default:
       src = '/images/logo/dyvola-horizontal.png';
-      defaultWidth = 160;
-      defaultHeight = 40;
+      defaultWidth = 140;
+      defaultHeight = 36;
       alt = 'DYVOLA Logo';
       break;
   }
@@ -63,8 +62,7 @@ export const DyvolaLogo: React.FC<DyvolaLogoProps> = ({
         width={finalWidth}
         height={finalHeight}
         priority={priority}
-        className="h-auto w-auto max-h-full object-contain mix-blend-multiply"
-        style={{ color: 'transparent' }}
+        className="h-auto w-auto max-h-full object-contain"
       />
     </div>
   );
