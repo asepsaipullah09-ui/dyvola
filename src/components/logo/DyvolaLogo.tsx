@@ -20,7 +20,7 @@ export const DyvolaLogo: React.FC<DyvolaLogoProps> = ({
 }) => {
   let src = '/images/logo/dyvola-horizontal.png';
   let defaultWidth = 140;
-  let defaultHeight = 36;
+  let defaultHeight = 33;
   let alt = 'DYVOLA Logo';
 
   switch (variant) {
@@ -46,7 +46,7 @@ export const DyvolaLogo: React.FC<DyvolaLogoProps> = ({
     default:
       src = '/images/logo/dyvola-horizontal.png';
       defaultWidth = 140;
-      defaultHeight = 36;
+      defaultHeight = 33;
       alt = 'DYVOLA Logo';
       break;
   }

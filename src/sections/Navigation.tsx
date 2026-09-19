@@ -40,9 +40,9 @@ export const Navigation: React.FC = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-12 flex items-center justify-between h-12 sm:h-14">
-        {/* Brand Logo */}
+        {/* Brand Logo — Clean transparent horizontal mark with tight bounding box */}
         <Link href="/" className="inline-flex items-center">
-          <DyvolaLogo variant="horizontal" width={135} height={34} priority />
+          <DyvolaLogo variant="horizontal" width={140} height={33} priority />
         </Link>
 
         {/* Desktop Navigation Links */}
@@ -70,7 +70,7 @@ export const Navigation: React.FC = () => {
           </a>
         </div>
 
-        {/* Mobile Hamburger Button — Clean aligned right without card border */}
+        {/* Mobile Hamburger Button */}
         <div className="flex md:hidden items-center">
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -82,7 +82,7 @@ export const Navigation: React.FC = () => {
         </div>
       </div>
 
-      {/* Mobile Drawer Menu — Sleek editorial list without bulky cards */}
+      {/* Mobile Drawer Menu */}
       <AnimatePresence>
         {mobileMenuOpen && (
           <motion.div
